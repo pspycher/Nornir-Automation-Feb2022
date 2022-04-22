@@ -1,0 +1,524 @@
+2022-03-01 13:50:37,124 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 9 hosts
+2022-03-01 13:56:15,523 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 9 hosts
+2022-03-01 13:59:40,395 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-01 13:59:40,399 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 13:59:40,400 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 13:59:40,400 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 13:59:40,401 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 14:10:34,731 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-01 14:10:34,732 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 14:10:34,732 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 14:10:34,733 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 14:10:34,733 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 14:13:34,962 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-01 14:13:34,963 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 14:13:34,963 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 14:13:34,964 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 14:13:34,964 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-01 14:21:32,943 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-01 14:21:34,798 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_file_transfer.py", line 27, in netmiko_file_transfer
+    net_connect, source_file=source_file, dest_file=dest_file, **kwargs
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_functions.py", line 107, in file_transfer
+    with TransferClass(**scp_args) as scp_transfer:
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 358, in FileTransfer
+    return FileTransferClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/arista/arista.py", line 98, in __init__
+    **kwargs,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 105, in __init__
+    self.source_md5 = self.file_md5(source_file) if hash_supported else None
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 311, in file_md5
+    with open(file_name, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'eos/eos/arista_test.txt'
+
+2022-03-01 14:21:34,799 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 19, in file_copy
+    overwrite_file=True,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2022-03-01 14:21:34,799 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_file_transfer.py", line 27, in netmiko_file_transfer
+    net_connect, source_file=source_file, dest_file=dest_file, **kwargs
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_functions.py", line 107, in file_transfer
+    with TransferClass(**scp_args) as scp_transfer:
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 358, in FileTransfer
+    return FileTransferClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/arista/arista.py", line 98, in __init__
+    **kwargs,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 105, in __init__
+    self.source_md5 = self.file_md5(source_file) if hash_supported else None
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 311, in file_md5
+    with open(file_name, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'eos/eos/arista_test.txt'
+
+2022-03-01 14:21:34,799 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 19, in file_copy
+    overwrite_file=True,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2022-03-01 14:21:34,800 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_file_transfer.py", line 27, in netmiko_file_transfer
+    net_connect, source_file=source_file, dest_file=dest_file, **kwargs
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_functions.py", line 107, in file_transfer
+    with TransferClass(**scp_args) as scp_transfer:
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 358, in FileTransfer
+    return FileTransferClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/arista/arista.py", line 98, in __init__
+    **kwargs,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 105, in __init__
+    self.source_md5 = self.file_md5(source_file) if hash_supported else None
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 311, in file_md5
+    with open(file_name, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'eos/eos/arista_test.txt'
+
+2022-03-01 14:21:34,800 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 19, in file_copy
+    overwrite_file=True,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2022-03-01 14:21:34,866 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_file_transfer.py", line 27, in netmiko_file_transfer
+    net_connect, source_file=source_file, dest_file=dest_file, **kwargs
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_functions.py", line 107, in file_transfer
+    with TransferClass(**scp_args) as scp_transfer:
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 358, in FileTransfer
+    return FileTransferClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/arista/arista.py", line 98, in __init__
+    **kwargs,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 105, in __init__
+    self.source_md5 = self.file_md5(source_file) if hash_supported else None
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 311, in file_md5
+    with open(file_name, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'eos/eos/arista_test.txt'
+
+2022-03-01 14:21:34,866 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2a.py", line 19, in file_copy
+    overwrite_file=True,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2022-03-01 14:28:38,264 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 1 hosts
+2022-03-05 06:02:29,829 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 9 hosts
+2022-03-05 06:04:57,369 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 9 hosts
+2022-03-05 07:02:17,975 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-05 07:02:17,988 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-05 07:02:17,988 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-05 07:02:17,989 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-05 07:02:17,989 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host["file_name"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'file_name'
+
+2022-03-05 07:09:46,576 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-05 07:09:46,577 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host["testa.txt"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'testa.txt'
+
+2022-03-05 07:09:46,577 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host["testa.txt"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'testa.txt'
+
+2022-03-05 07:09:46,577 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host["testa.txt"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'testa.txt'
+
+2022-03-05 07:09:46,578 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host["testa.txt"]
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 'testa.txt'
+
+2022-03-05 07:11:00,434 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-05 07:11:00,435 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host[testa.txt]
+NameError: name 'testa' is not defined
+
+2022-03-05 07:11:00,435 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host[testa.txt]
+NameError: name 'testa' is not defined
+
+2022-03-05 07:11:00,436 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host[testa.txt]
+NameError: name 'testa' is not defined
+
+2022-03-05 07:11:00,436 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 10, in file_copy
+    filename = host[testa.txt]
+NameError: name 'testa' is not defined
+
+2022-03-05 07:12:30,525 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-05 07:12:30,526 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 11, in file_copy
+    filename = testa.txt
+NameError: name 'testa' is not defined
+
+2022-03-05 07:12:30,527 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 11, in file_copy
+    filename = testa.txt
+NameError: name 'testa' is not defined
+
+2022-03-05 07:12:30,527 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 11, in file_copy
+    filename = testa.txt
+NameError: name 'testa' is not defined
+
+2022-03-05 07:12:30,528 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 11, in file_copy
+    filename = testa.txt
+NameError: name 'testa' is not defined
+
+2022-03-05 07:12:58,246 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-05 07:13:00,346 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_file_transfer.py", line 27, in netmiko_file_transfer
+    net_connect, source_file=source_file, dest_file=dest_file, **kwargs
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_functions.py", line 107, in file_transfer
+    with TransferClass(**scp_args) as scp_transfer:
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 358, in FileTransfer
+    return FileTransferClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/arista/arista.py", line 98, in __init__
+    **kwargs,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 109, in __init__
+    self.remote_md5(remote_file=source_file) if hash_supported else None
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/arista/arista.py", line 125, in remote_md5
+    dest_md5 = self.process_md5(dest_md5)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 334, in process_md5
+    raise ValueError(f"Invalid output from MD5 command: {md5_output}")
+ValueError: Invalid output from MD5 command: % Error: file file:/mnt/flash/testa.txt not found
+
+2022-03-05 07:13:00,347 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 18, in file_copy
+    overwrite_file=True,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2022-03-05 07:13:00,793 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_file_transfer.py", line 27, in netmiko_file_transfer
+    net_connect, source_file=source_file, dest_file=dest_file, **kwargs
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_functions.py", line 107, in file_transfer
+    with TransferClass(**scp_args) as scp_transfer:
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 358, in FileTransfer
+    return FileTransferClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/arista/arista.py", line 98, in __init__
+    **kwargs,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 109, in __init__
+    self.remote_md5(remote_file=source_file) if hash_supported else None
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/arista/arista.py", line 125, in remote_md5
+    dest_md5 = self.process_md5(dest_md5)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 334, in process_md5
+    raise ValueError(f"Invalid output from MD5 command: {md5_output}")
+ValueError: Invalid output from MD5 command: % Error: file file:/mnt/flash/testa.txt not found
+
+2022-03-05 07:13:00,793 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 18, in file_copy
+    overwrite_file=True,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2022-03-05 07:13:01,020 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_file_transfer.py", line 27, in netmiko_file_transfer
+    net_connect, source_file=source_file, dest_file=dest_file, **kwargs
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_functions.py", line 107, in file_transfer
+    with TransferClass(**scp_args) as scp_transfer:
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 358, in FileTransfer
+    return FileTransferClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/arista/arista.py", line 98, in __init__
+    **kwargs,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 109, in __init__
+    self.remote_md5(remote_file=source_file) if hash_supported else None
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/arista/arista.py", line 125, in remote_md5
+    dest_md5 = self.process_md5(dest_md5)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/scp_handler.py", line 334, in process_md5
+    raise ValueError(f"Invalid output from MD5 command: {md5_output}")
+ValueError: Invalid output from MD5 command: % Error: file file:/mnt/flash/testa.txt not found
+
+2022-03-05 07:13:01,020 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class4/ex2c.py", line 18, in file_copy
+    overwrite_file=True,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2022-03-05 07:39:09,215 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-05 07:40:24,627 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-05 07:41:30,371 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2022-03-05 07:54:36,977 -  nornir.core -     INFO -        run() - Running task 'configure_vlans' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan'} on 6 hosts
+2022-03-05 07:56:07,533 -  nornir.core -     INFO -        run() - Running task 'configure_vlans' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan'} on 6 hosts
+2022-03-05 07:58:32,759 -  nornir.core -     INFO -        run() - Running task 'configure_vlans' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan'} on 6 hosts
+2022-03-05 07:59:21,448 -  nornir.core -     INFO -        run() - Running task 'configure_vlans' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan'} on 6 hosts
+2022-03-05 08:01:05,806 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan'} on 6 hosts
+2022-03-05 08:02:23,020 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan'} on 6 hosts
+2022-03-05 08:05:35,713 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan'} on 6 hosts
+2022-03-05 08:06:07,322 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan'} on 6 hosts
+2022-03-05 08:08:18,878 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan', 'dry_run': True} on 6 hosts
+2022-03-05 08:08:38,010 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan', 'dry_run': True} on 6 hosts
+2022-03-05 08:08:57,418 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan', 'dry_run': True} on 6 hosts
+2022-03-05 08:10:37,031 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan', 'dry_run': False} on 6 hosts
+2022-03-05 08:10:57,451 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan', 'dry_run': False} on 6 hosts
+2022-03-05 08:13:21,840 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 1 hosts
+2022-03-05 08:17:19,985 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 1 hosts
+2022-03-05 08:17:21,103 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': '\ninterface loopback123\n  description VeryNice_Loopback\n    '} on 1 hosts
+2022-03-05 08:19:52,744 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 1 hosts
+2022-03-05 08:19:53,908 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': '\ninterface loopback123\n  description VeryNice_Loopback\n    '} on 1 hosts
+2022-03-05 08:23:00,914 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 4 hosts
+2022-03-05 08:23:02,385 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': '\ninterface loopback123\n  description VeryNice_Loopback\n    '} on 4 hosts
+2022-03-05 08:25:28,655 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 4 hosts
+2022-03-05 08:25:30,005 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': '\ninterface loopback123\n  description VeryNice_Loopback\n    '} on 4 hosts
+2022-03-05 08:27:15,003 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 4 hosts
+2022-03-05 08:27:16,430 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': '\nno interface loopback123'} on 4 hosts
+2022-03-05 08:29:06,421 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 1 hosts
+2022-03-05 08:29:49,679 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 1 hosts
+2022-03-05 08:29:50,804 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': '\ninterface loopback123\n  description VeryNice_Loopback\n    '} on 1 hosts
+2022-03-05 08:30:51,771 -  nornir.core -  WARNING -        run() - Task 'napalm_get' has not been run – 0 hosts selected
+2022-03-05 08:33:10,756 -  nornir.core -  WARNING -        run() - Task 'napalm_get' has not been run – 0 hosts selected
+2022-03-05 08:34:58,583 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 1 hosts
+2022-03-05 08:34:59,748 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': '\ninterface loopback123\n  description VeryNice_Loopback\n    '} on 1 hosts
+2022-03-05 08:36:15,744 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'retrieve': 'running'} on 1 hosts
+2022-03-05 08:36:16,887 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': 'interface loopback123\n  description verycoolloopback'} on 1 hosts
+2022-03-05 08:36:20,747 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': '! Command: show running-config\n! device: arista4 (vEOS, EOS-4.20.10M)\n!\n! boot system flash:/vEOS-lab.swi\n!\ntransceiver qsfp default-mode 4x10G\n!\nhostname arista4\n!\nntp server 130.126.24.24\n!\nspanning-tree mode rapid-pvst\n!\naaa authorization exec default local\n!\nno aaa root\n!\nusername admin privilege 15 role network-admin secret 5 $1$aM6w809x$tgkc6ZGhcScvELVKVHq3n0\nusername admin1 privilege 15 secret 5 $1$7kD0oS/t$wXhtTFwnWwnlPFKWwXoJ70\nusername eapi secret 5 $1$kGsls/wg$brwRo1OGS0OaTdnKuWHQG/\nusername pyclass privilege 15 secret 5 $1$C3VfUfcO$86t4iqCX60yW.NIR8d2Lh0\n!\nclock timezone America/Los_Angeles\n!\nvlan 2-7\n!\nvlan 123\n   name ntp_vlan\n!\ninterface Ethernet1\n   spanning-tree portfast\n   spanning-tree cost 1\n!\ninterface Ethernet2\n   switchport access vlan 2\n!\ninterface Ethernet3\n   switchport access vlan 3\n!\ninterface Ethernet4\n   switchport access vlan 4\n!\ninterface Ethernet5\n   switchport access vlan 5\n!\ninterface Ethernet6\n   switchport access vlan 6\n!\ninterface Ethernet7\n   switchport access vlan 7\n!\ninterface Loopback123\n   description VeryNice_Loopback\n!\ninterface Management1\n   shutdown\n!\ninterface Vlan1\n   ip address 10.220.88.31/24\n!\nip route 0.0.0.0/0 10.220.88.1\n!\nip routing\n!\nmanagement api http-commands\n   no shutdown\n!\nend\n', 'replace': True} on 1 hosts
