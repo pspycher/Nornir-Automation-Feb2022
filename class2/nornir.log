@@ -1,0 +1,409 @@
+2022-02-05 13:41:43,184 -  nornir.core -  WARNING -        run() - Task 'netmiko_send_command' has not been run – 0 hosts selected
+2022-02-05 13:45:18,822 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i hostname'} on 2 hosts
+2022-02-05 13:47:50,588 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i hostname'} on 2 hosts
+2022-02-05 13:48:04,474 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i hostname'} on 2 hosts
+2022-02-05 13:52:32,885 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i interf'} on 2 hosts
+2022-02-05 13:54:48,932 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i hostname'} on 2 hosts
+2022-02-08 13:32:09,788 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i interf'} on 2 hosts
+2022-02-08 13:33:16,305 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i hostname'} on 2 hosts
+2022-02-08 13:37:21,227 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run'} on 2 hosts
+2022-02-08 13:40:14,891 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run'} on 2 hosts
+2022-02-08 13:45:30,576 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run'} on 2 hosts
+2022-02-08 13:46:42,093 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i hostname'} on 2 hosts
+2022-02-08 13:47:41,474 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i interf'} on 2 hosts
+2022-02-08 13:52:58,596 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i interf'} on 2 hosts
+2022-02-08 13:53:42,885 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i interf'} on 2 hosts
+2022-02-08 13:55:14,420 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i interf'} on 2 hosts
+2022-02-08 13:56:05,858 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run'} on 2 hosts
+2022-02-08 13:56:53,450 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run'} on 2 hosts
+2022-02-08 13:58:30,923 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i hostname'} on 2 hosts
+2022-02-08 14:00:36,630 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i hostname'} on 2 hosts
+2022-02-08 14:03:31,863 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run'} on 2 hosts
+2022-02-08 14:05:00,784 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i hostname'} on 2 hosts
+2022-02-08 14:05:59,124 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run | i hostname'} on 2 hosts
+2022-02-08 14:17:55,171 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ver | i Software'} on 2 hosts
+2022-02-08 14:21:11,434 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp'} on 6 hosts
+2022-02-08 14:23:59,260 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['arp_table']} on 6 hosts
+2022-02-08 14:26:24,266 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-08 14:28:07,631 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-08 14:28:10,449 - nornir.core.task -    ERROR -      start() - Host 'cisco3': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 446, in connect
+    passphrase,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 766, in _auth
+    raise saved_exception
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 753, in _auth
+    self._transport.auth_password(username, password)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/transport.py", line 1509, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/auth_handler.py", line 250, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 972, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.ssh_exception.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios cisco3.lasthop.io:22
+
+
+Authentication failed.
+
+2022-02-08 14:29:19,777 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 01:21:42,332 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp'} on 6 hosts
+2022-02-12 01:21:54,366 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp'} on 6 hosts
+2022-02-12 01:22:04,939 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp'} on 6 hosts
+2022-02-12 01:22:13,126 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp'} on 6 hosts
+2022-02-12 01:26:16,515 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp | i gateway'} on 6 hosts
+2022-02-12 01:26:47,645 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp'} on 6 hosts
+2022-02-12 01:34:03,238 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp'} on 6 hosts
+2022-02-12 01:34:50,816 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp'} on 6 hosts
+2022-02-12 01:38:43,869 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['arp_table']} on 6 hosts
+2022-02-12 01:39:49,593 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp'} on 6 hosts
+2022-02-12 01:44:52,081 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 01:46:09,917 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 01:46:12,852 - nornir.core.task -    ERROR -      start() - Host 'cisco3': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 446, in connect
+    passphrase,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 766, in _auth
+    raise saved_exception
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 753, in _auth
+    self._transport.auth_password(username, password)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/transport.py", line 1509, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/auth_handler.py", line 250, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 972, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.ssh_exception.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios cisco3.lasthop.io:22
+
+
+Authentication failed.
+
+2022-02-12 01:46:56,103 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 01:46:58,598 - nornir.core.task -    ERROR -      start() - Host 'cisco3': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 446, in connect
+    passphrase,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 766, in _auth
+    raise saved_exception
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 753, in _auth
+    self._transport.auth_password(username, password)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/transport.py", line 1509, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/auth_handler.py", line 250, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 972, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.ssh_exception.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios cisco3.lasthop.io:22
+
+
+Authentication failed.
+
+2022-02-12 01:47:26,170 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 01:49:49,558 -  nornir.core -  WARNING -        run() - Task 'netmiko_send_command' has not been run – 0 hosts selected
+2022-02-12 01:52:14,187 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 6 hosts
+2022-02-12 02:03:45,086 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 02:03:47,833 - nornir.core.task -    ERROR -      start() - Host 'cisco3': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 446, in connect
+    passphrase,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 766, in _auth
+    raise saved_exception
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 753, in _auth
+    self._transport.auth_password(username, password)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/transport.py", line 1509, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/auth_handler.py", line 250, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 972, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.ssh_exception.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios cisco3.lasthop.io:22
+
+
+Authentication failed.
+
+2022-02-12 02:06:36,639 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 02:06:39,382 - nornir.core.task -    ERROR -      start() - Host 'cisco3': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 446, in connect
+    passphrase,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 766, in _auth
+    raise saved_exception
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 753, in _auth
+    self._transport.auth_password(username, password)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/transport.py", line 1509, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/auth_handler.py", line 250, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 972, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.ssh_exception.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios cisco3.lasthop.io:22
+
+
+Authentication failed.
+
+2022-02-12 02:06:39,436 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 02:07:54,562 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 02:07:57,305 - nornir.core.task -    ERROR -      start() - Host 'cisco3': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 446, in connect
+    passphrase,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 766, in _auth
+    raise saved_exception
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 753, in _auth
+    self._transport.auth_password(username, password)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/transport.py", line 1509, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/auth_handler.py", line 250, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 972, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.ssh_exception.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios cisco3.lasthop.io:22
+
+
+Authentication failed.
+
+2022-02-12 02:07:57,360 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 02:16:34,713 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
+2022-02-12 02:16:37,457 - nornir.core.task -    ERROR -      start() - Host 'cisco3': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 446, in connect
+    passphrase,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 766, in _auth
+    raise saved_exception
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/client.py", line 753, in _auth
+    self._transport.auth_password(username, password)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/transport.py", line 1509, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/paramiko/auth_handler.py", line 250, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/netmiko/base_connection.py", line 972, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.ssh_exception.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios cisco3.lasthop.io:22
+
+
+Authentication failed.
+
+2022-02-12 02:16:37,511 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 2 hosts
