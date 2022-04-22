@@ -1,0 +1,16 @@
+---
+logging:
+  enabled: False
+inventory:
+ # plugin: nornir.plugins.inventory.simple.SimpleInventory
+  plugin: SimpleInventory
+  options:
+    host_file: "/home/pspycher/class5/hosts.yaml"
+    group_file: "/home/pspycher/class5/groups.yaml"
+    defaults_file: "/home/pspycher/class5/defaults.yaml"
+   # defaults_file: "/home/pspycher/nornir_inventory/defaults.yaml"
+runner:
+  plugin: threaded
+  options:
+    num_workers: 20
+
