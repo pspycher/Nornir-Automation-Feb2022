@@ -1,0 +1,20 @@
+2022-03-15 14:52:30,070 -  nornir.core -     INFO -        run() - Running task 'send_command' with args {} on 1 hosts
+2022-03-15 14:52:48,768 -  nornir.core -     INFO -        run() - Running task 'send_command' with args {} on 1 hosts
+2022-03-15 14:54:04,173 -  nornir.core -     INFO -        run() - Running task 'send_command' with args {} on 1 hosts
+2022-03-15 14:54:07,002 - nornir.core.task -    ERROR -      start() - Host 'srx2': task 'send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class6/ex1b.py", line 9, in send_command
+    raise ValueError("Invalid Junos command")
+ValueError: Invalid Junos command
+
+2022-03-15 14:54:44,097 -  nornir.core -     INFO -        run() - Running task 'send_command' with args {} on 1 hosts
+2022-03-15 14:54:46,902 - nornir.core.task -    ERROR -      start() - Host 'srx2': task 'send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/pspycher/VENV/py3_venv/lib64/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/pspycher/class6/ex1b.py", line 9, in send_command
+    raise ValueError("Invalid Junos command")
+ValueError: Invalid Junos command
+
