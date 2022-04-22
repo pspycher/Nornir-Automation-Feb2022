@@ -1,0 +1,16 @@
+2022-02-01 12:50:24,261 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 12:53:05,541 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 12:53:30,471 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 12:53:37,978 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 12:57:01,553 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 12:59:41,767 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 13:05:04,160 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 13:06:08,770 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 13:06:44,940 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 13:07:10,740 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 13:09:46,424 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 13:14:07,882 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 13:15:12,645 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 13:15:58,146 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 13:17:27,099 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2022-02-01 13:33:42,687 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
