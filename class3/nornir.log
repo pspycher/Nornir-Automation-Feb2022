@@ -1,0 +1,29 @@
+2022-02-15 02:54:57,968 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:05:49,618 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 2 hosts
+2022-02-15 08:06:33,516 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 2 hosts
+2022-02-15 08:08:08,304 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:10:08,980 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:14:53,485 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:23:35,525 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:27:30,171 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:28:16,825 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:30:42,227 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:34:03,625 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:37:46,679 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:38:40,851 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:50:35,294 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:52:07,748 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:58:24,734 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 08:59:15,473 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 09:02:03,782 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 09:02:26,627 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 09:02:44,217 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 09:02:56,731 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 09:08:49,601 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 09:11:27,506 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show int status', 'use_textfsm': True} on 4 hosts
+2022-02-15 09:29:05,155 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config']} on 2 hosts
+2022-02-15 09:31:17,166 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'getters_options': {'config': {'retrieve': 'running'}}} on 2 hosts
+2022-02-15 09:31:50,903 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config', 'facts'], 'getters_options': {'config': {'retrieve': 'running'}}} on 2 hosts
+2022-02-15 09:35:23,650 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config', 'facts'], 'getters_options': {'config': {'retrieve': 'all'}}} on 2 hosts
+2022-02-15 09:40:15,081 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config', 'facts'], 'getters_options': {'config': {'retrieve': 'all'}}} on 2 hosts
+2022-02-15 09:41:02,146 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config', 'facts'], 'getters_options': {'config': {'retrieve': 'all'}}} on 2 hosts
